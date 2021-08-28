@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">TrabalhoAmbientesMoveis</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="calc_imc">IMC</string>
+    <string name="calculadora">Calculadora</string>
+    <string name="instagram">Instagram</string>
+    <string name="title_activity_imc">ImcActivity</string>
+    <string name="Titulo_Imc">Calcule seu IMC</string>
+    <string name="Titulo_peso">Informe seu peso</string>
+    <string name="Titulo_altura">Informe sua altura</string>
+    <string name="btn_calcular">Calcular</string>
+    <string name="btn_limpar">Limpar</string>
+
+</resources>

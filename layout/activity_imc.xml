@@ -1,0 +1,80 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/laranja">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Titulo_Imc"
+        android:textColor="@color/branco"
+        android:layout_gravity="center"
+        android:textSize="40sp"
+        android:paddingTop="100dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Titulo_peso"
+        android:textColor="@color/branco"
+        android:layout_gravity="center"
+        android:textSize="30sp"
+        android:paddingTop="50dp"/>
+
+    <EditText
+        android:layout_width="268dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="30sp"
+        android:paddingLeft="40dp"
+        android:id="@+id/et_peso"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Titulo_altura"
+        android:textColor="@color/branco"
+        android:layout_gravity="center"
+        android:textSize="30sp"
+        android:paddingTop="1dp"/>
+
+    <EditText
+        android:layout_width="268dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="30sp"
+        android:paddingTop="10dp"
+        android:id="@+id/et_altura"/>
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/btn_calcular"
+            android:text="@string/btn_calcular"
+
+            android:background="@drawable/btn_calcular"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/btn_limpar"
+            android:text="@string/btn_limpar"
+
+            android:background="@drawable/btn_limpar"
+            />
+        </LinearLayout>
+
+
+</LinearLayout>

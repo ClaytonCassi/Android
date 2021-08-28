@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+
+
+    <LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="0dp"
+    android:orientation="horizontal"
+    android:layout_weight="1"
+    >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+
+            android:layout_weight="1"
+            android:background="@drawable/fnd"
+
+            >
+<TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:textColor="@color/branco"
+    android:gravity="center"
+    android:drawableTop="@drawable/btn_imc"
+    android:textSize="30dp"
+    android:id="@+id/edTelaImc"
+    android:text="@string/calc_imc"/>
+
+
+
+            </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:background="@color/azul">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/branco"
+                android:gravity="center"
+                android:drawableTop="@drawable/btn_calc"
+                android:id="@+id/edTelaCalculadora"
+                android:textSize="30dp"
+                android:text="@string/calculadora"/>
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:layout_weight="1"
+        >
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:background="@color/verde">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/branco"
+                android:gravity="center"
+                android:drawableTop="@drawable/btn_insta"
+                android:id="@+id/edTelaInsta"
+                android:textSize="30dp"
+                android:text="@string/instagram"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:background="@color/vermelho">
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
